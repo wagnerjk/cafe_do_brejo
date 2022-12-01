@@ -11,4 +11,11 @@ extension ColorTextMenu on MenuModel {
     }
     return Colors.black;
   }
+
+  double getFontSize() {
+    if (isSelected) {
+      return 30;
+    }
+    return 26;
+  }
 }
